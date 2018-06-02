@@ -10,6 +10,8 @@
   },
   "homepage": "https://ellenkramp.github.io/pf-react/",
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
