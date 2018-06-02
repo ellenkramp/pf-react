@@ -1,0 +1,26 @@
+
+body{
+    background-color: aqua;
+}
+
+footer{
+    background-color: red;
+}
+
+main{
+    background-color: greenyellow;
+}
+
+.logos{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between
+}
+
+h1{
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+@media (min-width: 700px) {
+    .logos{
+        width: 33%; }/*side by side
