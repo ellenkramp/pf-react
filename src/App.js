@@ -14,12 +14,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Route exact path="pf-react/about" component={About} />
-        <Route path="pf-react/education" component={Education} />
-        <Route path="pf-react/skills" component={Skills} />
-        <Route path="pf-react/github" component={Github} />
-        <Route path="pf-react/experience" component={Experience} />
-        <Route path="pf-react/contact" component={Contact} />
+        <Route exact path="/about" component={About} />
+        <Route path="education" component={Education} />
+        <Route path="/skills" component={Skills} />
+        <Route path="/github" component={Github} />
+        <Route path="/experience" component={Experience} />
+        <Route path="/contact" component={Contact} />
         <Route exact path="/" component={Home} />
         <Nav className="nav"/>
       </div>
